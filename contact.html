@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <header>
+    <h1>Contact Us</h1>
+
+    <!-- navigation bar -->
+    <nav>
+    <a href="index.html">Home |</a>
+    <a href="about.html">About |</a>
+    <a href="contact.html">Contact |</a>
+    <a href="menu.html">Menu</a>
+    </nav>
+</header>
+
+
+    <hr>
+
+    <h2>Customer Registration and Order Form</h2>
+
+    <hr>
+
+    <form action="" method="">
+        <h3>Customer Information</h3>
+        
+        <label for="fullname">Full Name</label>
+        <br>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter Full Name" required> <span>*</span>
+
+        <br><br>
+
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required> <span>*</span>
+
+        <br><br>
+
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="password" id="password" placeholder="Enter Password" required> <span>*</span>
+
+        <br><br>
+
+        <label for="phone">Phone No.</label>
+        <br>
+        <input type="tel" name="phone" id="phone" placeholder="Enter Your Mobile no." required> <span>*</span>
+
+        <br><br>
+
+        <label for="quantity">Quantity</label>
+        <br>
+        <input type="number" name="quantity" id="quantity" placeholder="Enter Quantity" required> <span>*</span>
+
+        <br><br>    
+
+        <label for="date">Delivery date</label>
+        <br>
+        <input type="date" name="date" id="date" placeholder="Select Date">
+
+        <br><br>
+
+        <label for="food">Select Food Item</label>
+        <br>
+        <select name="food" id="food">
+            <option value="VegPizza">Veg Pizza</option>
+            <option value="CheeseBurger">Cheese Burger</option>
+            <option value="WhiteSausePasta">White Sause Pasta</option>
+            <option value="VegGrilledSandwich">Veg Grilled Sandwich</option>
+            <option value="ChocoBrownie">Chocolate Brownie</option>
+        </select>
+
+        <br><br>
+
+        <h3>Payment Method</h3>
+        
+        <input type="radio" name="Payment" id="cash">
+        <label for="cash">Cash</label>
+
+        <input type="radio" name="Payment" id="upi">
+        <label for="upi">UPI</label>
+
+        <input type="radio" name="Payment" id="card">
+        <label for="card">Card</label>
+
+
+        <br><br>
+
+        <h3>Extras</h3>
+        <input type="checkbox" id="cheese" name="extras">
+        <label for="cheese">Cheese</label>
+
+        <input type="checkbox" id="cold drinks" name="extras">
+        <label for="colddrinks">Cold Drinks</label>
+
+        <input type="checkbox" id="dessert" name="extras">
+        <label for="dessert">Dessert</label>
+
+        <br><br>
+
+        <h3>Delivery Instructions</h3>
+
+        <label for="address">Address</label>
+        <br>
+        <textarea name="address" id="address" rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <button type="submit">Place Order</button>
+        <button type="reset">Clear Form</button>
+
+
+    </form>
+
+</body>
+</html>
